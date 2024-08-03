@@ -10,7 +10,7 @@
 }
 body{
     font-family: "Inter", sans-serif;
-    background-color: rgba(17, 17, 17, 1);
+    background-color: rgba(17, 17, 17, 0.9);
 }
 /* ========== shared style starts =========== */
 /* .secondary_bg{
@@ -91,14 +91,21 @@ nav li a {
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 30px 0 200px;
+    margin: 0 200px 0 200px;
 }
 .banner_content{
     max-width: 580px;
 }
 .banner_content h2{
     font-size: 78px;
-    color: #FFF;
+    color: white;
+}
+.banner_content p{
+    font-size: 16px;
+    font-weight: 400;
+    /* color: lightgray; */
+    color: (255, 255, 255, 0.50);
+    margin: 30px 0;
 }
 .btn_dwn{
     color: #fff;
@@ -109,7 +116,6 @@ nav li a {
     padding: 10px 30px;
     font-size: 18px;
     background-color: rgba(17, 17, 17, 1);
-
 }
 .banner_content span{
     font-size: 78px;
@@ -125,11 +131,87 @@ nav li a {
     font-size: 70px;
     font-weight: bold;
 }
-.banner_description{
-    font-size: 16px;
-    font-weight: 400;
-}
+
 .banner_profile_image{
-    width: 580px;
+    width: 390px;
+    height: 580px;
 }
+
 /* banner part ends */
+/* change your habit part start */
+.habit_description{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align:  center;
+}
+.habit_description h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    /* align-items: center; */
+}
+.habit_description p{
+    color: (255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.habit_image_section{
+    display: flex;
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.habit_single_part{
+    text-align: center;
+}
+.habit_single_part img{
+    border-radius: 50%;
+}
+.habit_single_part h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.habit_single_part p{
+    color: (255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+/* run extra mile part */
+.run_extra_mile{
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.run_description{
+    padding: 40px 130px 0px 50px ;
+    /* padding-right: 130px; */
+}
+.run_description h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    /* margin-top: 10px;
+    margin-bottom: 5px; */
+}
+.run_description p{
+    color: (255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.run_image img{
+    /* height: 370px; */
+    width: 100%;
+    padding: 40px;
+    border-radius: 60px;
+}
+
