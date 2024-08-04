@@ -13,15 +13,6 @@ body{
     background-color: rgba(17, 17, 17, 0.9);
 }
 /* ========== shared style starts =========== */
-/* .secondary_bg{
-    background-color: #FFF8F3;
-} */
-/* .text-primary{
-    color: #FD6E0A;
-} */
-/* .dark_2{
-    color: #474747;
-} */
 .btn_primary{
     background-color: #FD6E0A;
     font-weight: 500;
@@ -31,28 +22,9 @@ body{
     padding: 10px 30px;
     font-size: 18px;
 }
-/* .section_title{
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
 
-} */
-/* .section_description{
-    font-size: 18 px;
-    font-weight: bold;
-    color: #757575;
-
-} */
-/* .text_center{
-    text-align: center;
-} */
 /* --------------- shared style ends ---------- */
- /* ============= nav styles ==============*/
- /* .header{
-    background-image: url("../images/image\ 5.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-} */
+/* ============= nav styles starts ==============*/
 nav{
     display: flex;
     align-items: center;
@@ -60,10 +32,12 @@ nav{
     margin: 0 200px;
     padding-top: 20px;
 }
-/* .nav-title{
-    font-weight: 800;
-    font-size: 45px;
-} */
+.nav_list_items #bars{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
  nav h3{
     font-weight: Extra bold;
     font-style: italic;
@@ -86,7 +60,7 @@ nav li a {
     font-size: 18px;
     color: #FFF;
 }
-/* --------------- nav style ends ---------- */
+/* --------------- nav style ends ---------- */ 
 /* =========== banner starts ================ */
 .banner{
     display: flex;
@@ -99,6 +73,10 @@ nav li a {
 .banner_content h2{
     font-size: 78px;
     color: white;
+    font-weight: 900;
+}
+.banner_content span{
+    font-style: italic;
 }
 .banner_content p{
     font-size: 16px;
@@ -136,9 +114,9 @@ nav li a {
     width: 390px;
     height: 580px;
 }
+/* ------------ banner part ends -------------- */
 
-/* banner part ends */
-/* change your habit part start */
+/* =============== change your habit part starts =============== */
 .habit_description{
     max-width: 600px;
     margin: 0 auto;
@@ -148,7 +126,6 @@ nav li a {
     color: white;
     font-size: 48px;
     font-weight: 900;
-    /* align-items: center; */
 }
 .habit_description p{
     color: rgba(255, 255, 255, 0.50);
@@ -192,14 +169,12 @@ nav li a {
 }
 .run_description{
     padding: 40px 130px 0px 50px ;
-    /* padding-right: 130px; */
+
 }
 .run_description h3{
     color: white;
     font-size: 48px;
     font-weight: 900;
-    /* margin-top: 10px;
-    margin-bottom: 5px; */
 }
 .run_description p{
     color: rgba(255, 255, 255, 0.50);
@@ -209,12 +184,13 @@ nav li a {
     margin-bottom: 30px;
 }
 .run_image img{
-    /* height: 370px; */
+   
     width: 100%;
     padding: 40px;
     border-radius: 60px;
 }
-/* bmi calculator part starts */
+/* -------------change your habit part starts------------- */
+/* ============= bmi calculator part starts============== */
 .bmi_calculatro{
     max-width: 670px;
     margin: 0 auto;
@@ -291,6 +267,24 @@ tr > th, td {
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.5);
 }
+.double_input_box{
+    max-width: 480px;
+    position: relative;
+}
+.double_input_box > input{
+    width: 100%;
+}
+.bmi_info #first_arrow{
+    color: white;
+    margin-left: -30px;
+}
+#second_arrow{
+    position: absolute;
+    color: white;
+    margin-left: -25px;
+    margin-top: 10px;
+
+}
 /* meet our team part */
 .our_team_part{
     max-width: 1060px;
@@ -356,7 +350,7 @@ tr > th, td {
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
     margin-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 100px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .footer_left{
@@ -391,7 +385,7 @@ tr > th, td {
 ul > li{
     color: rgba(255, 255, 255, 0.5);
     list-style: none;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 .footer_down{
     
@@ -403,4 +397,75 @@ ul > li{
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+.hide{
+    display: none;
+}
+
+/* responsive part starts from here */
+/* Responsive for small device */
+@media screen and (max-width: 576px) {
+    nav{
+        margin: 0 30px 0 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav_list_items #bars{
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0 100px 0 30px;
+    }
+
+    .banner_content h2{
+        width: 285px;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .banner_content span{
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .two_button{
+        display: flex;
+        margin-right: 20px;
+    }
+    .two_button button{
+        margin-right: 20px;
+    }
+    .banner_content p{
+        width: 265px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .banner .banner_profile_image img{
+        /* width: 100%; */
+        margin: 0 10px 0 30px;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .change_habit{
+        display: flex;
+        flex-direction: column;
+    }
+    .habit_description p{
+        width: 316px;
+        margin: 10px auto 30px auto;
+        text-align: center;
+    }
+    .habit_image_section{
+        flex-direction: column;
+    }
+    .habit_single_part p{
+        width: 231px;
+        margin: 0 auto 30px auto;
+    }
+}
+/* Responsive for medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
 }
