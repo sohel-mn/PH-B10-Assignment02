@@ -1,0 +1,94 @@
+/* responsive part starts from here */
+/* Responsive for small device */
+@media screen and (max-width: 576px) {
+    nav{
+        margin: 0 30px 0 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav_list_items #bars{
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0 100px 0 30px;
+    }
+
+    .banner_content h2{
+        width: 285px;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .banner_content span{
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .two_button{
+        display: flex;
+        margin-right: 20px;
+    }
+    .two_button button{
+        margin-right: 20px;
+    }
+    .banner_content p{
+        width: 265px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .banner .banner_profile_image img{
+        /* width: 100%; */
+        margin: 0 10px 0 30px;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .change_habit{
+        display: flex;
+        flex-direction: column;
+    }
+    .habit_description{
+        width: auto;
+    }
+    .habit_description h3{
+        /* color: white; */
+        font-size: 36px;
+        /* font-weight: 900; */
+    }
+    .habit_description p{
+        width: 316px;
+        margin: 10px auto 30px auto;
+        text-align: center;
+    }
+    .habit_image_section{
+        flex-direction: column;
+    }
+    .habit_single_part p{
+        width: 231px;
+        margin: 0 auto 30px auto;
+    }
+    .habit_single_part img{
+        border-radius: 70%;
+    }
+    .run_extra_mile{
+        flex-direction: column;
+    }
+    .bmi_calculator{
+        max-width: 380px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .bmi_calculator h3{
+        margin-top: 30px;
+    }
+    .bmi_calculator p{
+        max-width: 380px;
+        /* margin: 0 auto; */
+        /* margin: 50px; */
+    }
+}
+/* Responsive for medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}

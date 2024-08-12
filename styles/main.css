@@ -158,7 +158,8 @@ nav li a {
     font-weight: 400;
     margin-bottom: 100px;
 }
-/* run extra mile part */
+/* -------------change your habit part endss------------- */
+/* =========== run extra mile part starts */
 .run_extra_mile{
     background: rgb(34, 34, 34);
     display: flex;
@@ -189,27 +190,26 @@ nav li a {
     padding: 40px;
     border-radius: 60px;
 }
-/* -------------change your habit part starts------------- */
+/* -------------run extra mile part ends------------- */
 /* ============= bmi calculator part starts============== */
-.bmi_calculatro{
+.bmi_calculator{
     max-width: 670px;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 50px auto;
 }
-.bmi_calculatro h3{
+.bmi_calculator h3{
     color: white;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
 }
-.bmi_calculatro p{
+.bmi_calculator p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     padding-top: 15px;
     
 }
-/* bmi chart part starts */
+/* ------------- bmi calculator part ends------------- */
+/* ============= bmi chart part starts */
 .bmi_chart_part{
     background-color: rgba(34, 34, 34, 1);
     padding-bottom: 30px;
@@ -285,6 +285,7 @@ tr > th, td {
     margin-top: 10px;
 
 }
+/* ------------- bmi chart part ends------------- */
 /* meet our team part */
 .our_team_part{
     max-width: 1060px;
@@ -402,70 +403,3 @@ ul > li{
     display: none;
 }
 
-/* responsive part starts from here */
-/* Responsive for small device */
-@media screen and (max-width: 576px) {
-    nav{
-        margin: 0 30px 0 20px;
-    }
-    nav ul{
-        display: none;
-    }
-    .nav_list_items #bars{
-        display: block;
-    }
-    .banner{
-        flex-direction: column;
-        margin: 0 100px 0 30px;
-    }
-
-    .banner_content h2{
-        width: 285px;
-        font-size: 36px;
-        font-weight: 400;
-    }
-    .banner_content span{
-        font-size: 36px;
-        font-style: italic;
-        font-weight: 400;
-    }
-    .two_button{
-        display: flex;
-        margin-right: 20px;
-    }
-    .two_button button{
-        margin-right: 20px;
-    }
-    .banner_content p{
-        width: 265px;
-        margin-top: 20px;
-        margin-bottom: 15px;
-    }
-    
-    .banner .banner_profile_image img{
-        /* width: 100%; */
-        margin: 0 10px 0 30px;
-        text-align: center;
-        padding-left: 100px;
-    }
-    .change_habit{
-        display: flex;
-        flex-direction: column;
-    }
-    .habit_description p{
-        width: 316px;
-        margin: 10px auto 30px auto;
-        text-align: center;
-    }
-    .habit_image_section{
-        flex-direction: column;
-    }
-    .habit_single_part p{
-        width: 231px;
-        margin: 0 auto 30px auto;
-    }
-}
-/* Responsive for medium device */
-@media screen and (min-width: 577px) and (max-width: 992px) {
-    
-}
