@@ -10,8 +10,14 @@
     .nav_list_items #bars{
         display: block;
     }
-    .banner{
+    .banner, 
+    .habit_image_section,
+    .run_extra_mile,
+    .bmi_box
+    {
         flex-direction: column;
+    }
+    .banner{
         margin: 0 100px 0 30px;
     }
 
@@ -61,9 +67,7 @@
         margin: 10px auto 30px auto;
         text-align: center;
     }
-    .habit_image_section{
-        flex-direction: column;
-    }
+
     .habit_single_part p{
         width: 231px;
         margin: 0 auto 30px auto;
@@ -71,9 +75,7 @@
     .habit_single_part img{
         border-radius: 70%;
     }
-    .run_extra_mile{
-        flex-direction: column;
-    }
+   
     .bmi_calculator{
         max-width: 380px;
         margin: 0 auto;
@@ -86,6 +88,34 @@
         max-width: 380px;
         /* margin: 0 auto; */
         /* margin: 50px; */
+    }
+    /* bmi chart part */
+    .bmi_table{
+        max-width: 380px;
+        /* margin: 0 auto; */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .bmi_info{
+        padding-left: 30px;
+    }
+    .bmi_info p{
+        max-width: 480px;   
+    }
+    /* our team part */
+    .team_description p{
+        max-width: 380px;
+        margin: 0 auto;  
+    }
+    .team_images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .trainer_pic{
+        height: auto;
+    }
+    .team_images{
+        margin: 0 15px;
     }
 }
 /* Responsive for medium device */

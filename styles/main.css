@@ -286,7 +286,7 @@ tr > th, td {
 
 }
 /* ------------- bmi chart part ends------------- */
-/* meet our team part */
+/* ============= meet our team part */
 .our_team_part{
     max-width: 1060px;
     margin: 0 auto;
@@ -311,21 +311,23 @@ tr > th, td {
 .team_images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    column-gap: 15px;
     row-gap: 30px;
     background-color: #222;
     padding: 20px 30px;
     border-radius: 20px;
+    margin-bottom: 60px;
+
     
 }
 .trainer_pic{
     max-width: 3000px;
-    height: 250px;
+    height: 270px;
      
 }
 .trainer_pic img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     height: 100%;
     /* margin-bottom: 20px; */
 }
@@ -334,16 +336,17 @@ tr > th, td {
     font-size: 20px;
     font-weight: 900;
     margin-top: -50px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .team_single_image h5{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     /* margin-top: -50px; */
-    margin-left: 10px;
+    margin-left: 30px;
 }
-/* footer part starts */
+/* ------------- meet our team part ends------------- */
+/* ============ footer part starts */
 .footer_part{
     max-width: 1060px;
     margin: 0 auto;
